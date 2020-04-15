@@ -2,6 +2,6 @@ spring:
   datasource:
     username: root
     password: 123
-    url: jdbc:mysql://localhost:3306/user?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/user?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always

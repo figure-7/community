@@ -50,13 +50,14 @@ public class AuthorizeController {
             String token = UUID.randomUUID().toString();
             user.setToken(token);
             if(githubUser.getName() == null){
-                user.setName("SongJiaXing");
+                user.setName("宋佳兴");
             } else {
                 user.setName(githubUser.getName());
             }
-            user.setAccount_id(String.valueOf(githubUser.getId()));
-            user.setGmtcreate(System.currentTimeMillis());
-            user.setGmtModefied(user.getGmtcreate());
+            user.setAccountId(String.valueOf(githubUser.getId()));
+            user.setGmtCreate(System.currentTimeMillis());
+            user.setGmtModified(user.getGmtCreate());
+            user.setAvatarUrl(githubUser.getAvatar_url());
             userMapper.insert(user);
             response.addCookie(new Cookie("token", token));
             return "redirect:/";

@@ -17,5 +17,7 @@ create table user
     constraint id
         unique (id)
 );
-
+```
+```bash
+mvn flyway:migrate
 ```

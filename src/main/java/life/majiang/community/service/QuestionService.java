@@ -31,13 +31,13 @@ public class QuestionService {
         } else {
             totalPage = totalCount / size + 1;
         };
-        if(page < 1) {
-            page = 1;
-        }
         if(page > totalPage) {
             page = totalPage;
         }
-        paginationDTO.setPagination(totalCount,page);
+        if(page < 1) {
+            page = 1;
+        }
+        paginationDTO.setPagination(totalPage,page);
         //size*(page-1)
         Integer offset = size * (page - 1);
         List<Question> questions = questionMapper.list(offset,size);
@@ -62,13 +62,13 @@ public class QuestionService {
         } else {
             totalPage = totalCount / size + 1;
         };
-        if(page < 1) {
-            page = 1;
-        }
         if(page > totalPage) {
             page = totalPage;
         }
-        paginationDTO.setPagination(totalCount,page);
+        if(page < 1) {
+            page = 1;
+        }
+        paginationDTO.setPagination(totalPage,page);
         //size*(page-1)
         Integer offset = size * (page - 1);
         List<Question> questions = questionMapper.listByUserId(userId,offset,size);

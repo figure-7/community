@@ -2,7 +2,8 @@
 
 ## 资料 网址略
 
-## 工具 网址略
+## 工具 网址
+www.mybatis.org
 
 ## 脚本
 ```SQL
@@ -20,4 +21,5 @@ create table user
 ```
 ```bash
 mvn flyway:migrate
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```

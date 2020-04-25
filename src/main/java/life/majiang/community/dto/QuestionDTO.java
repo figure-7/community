@@ -8,7 +8,7 @@ import javax.persistence.Id;
 @Data
 public class QuestionDTO {
     @Id
-    private Integer id;
+    private Long id;
     private String title;
     private String description;
     private String tag;

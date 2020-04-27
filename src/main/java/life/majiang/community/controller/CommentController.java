@@ -19,7 +19,7 @@ public class CommentController {
     private CommentService commentService;
 
     @ResponseBody
-    @RequestMapping(value = "/commit", method = RequestMethod.POST)
+    @RequestMapping(value = "/comment", method = RequestMethod.POST)
     public Object post(@RequestBody CommentDTO commentDTO, HttpServletRequest request) {
         User user = (User)request.getSession().getAttribute("user");
         if(user == null) {

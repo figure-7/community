@@ -36,7 +36,7 @@
                            placeholder="输入标签，以,号分隔" onclick="showSelectTag()">
                     <div id="select-tag" class="publish-tag-tab">
                         <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" th:each="selectCategory : ${tags}"><a
+                            <li role="presentation" th:each="selectCategory,selectCategoryStat : ${tags}" th:class="${selectCategoryStat.first ? 'active':''}"><a
                                     th:href="${'#'+selectCategory.categoryName}"
                                     aria-controls="home"
                                     role="tab"
@@ -45,12 +45,12 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane" th:id="${selectCategory.categoryName}"
-                                 th:each="selectCategory : ${tags}"><span><span class="label label-info"
+                            <div role="tabpanel"th:id="${selectCategory.categoryName}"
+                                 th:each="selectCategory : ${tags}" th:class="${selectCategoryStat.first ? 'active tab-pane':'tab-pane'}"><span><span class="label label-info"
                                                                                 th:each="selectTag : ${selectCategory.tags}"><span
                                     class="glyphicon glyphicon-tags" onclick="selectTag(this)"
                                     th:data-tag="${selectTag}"
-                                    th:text="${selectTag}"></span></span></span>
+                                    th:text="${' '+selectTag}"></span></span></span>
                             </div>
                         </div>
                     </div>

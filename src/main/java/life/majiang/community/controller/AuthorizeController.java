@@ -61,7 +61,7 @@ public class AuthorizeController {
                 user.setAccountId(String.valueOf(githubUser.getId()));
             }
             if(githubUser.getAvatar_url() == null) {
-                user.setAvatarUrl("img/GitHub.jpg");
+                user.setAvatarUrl("images/GitHub.jpg");
             } else {
                 user.setAvatarUrl(githubUser.getAvatar_url());
             }

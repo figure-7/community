@@ -16,7 +16,11 @@ public class FileController {
         MultipartHttpServletRequest multipartRequest = (MultipartHttpServletRequest) request;
         MultipartFile file = multipartRequest.getFile("editormd-image-file");
 //        try{
-//            //provider加载(图片流，图片名称，图片类型)
+//              provider加载(图片流，图片名称，图片类型)获取字符串filename
+//              FileDTO fileDTO = new FileDTO();
+//              fileDTO.setSuccess(1);
+//              fileDTO.setUrl(filename);
+//              return fileDTO;
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }

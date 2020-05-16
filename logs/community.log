@@ -1,0 +1,4 @@
+2020-05-17 00:27:53.851 DEBUG 17356 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-05-17 00:27:53.859 DEBUG 17356 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select id, account_id, name, token, gmt_create, gmt_modified, bio, avatar_url from user where id = ? 
+2020-05-17 00:27:53.860 DEBUG 17356 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-05-17 00:27:53.862 DEBUG 17356 --- [http-nio-8887-exec-1] l.m.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1

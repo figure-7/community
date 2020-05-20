@@ -33,7 +33,9 @@
                                 </ul>
                             </li>
                             <li th:if="${session.user == null}">
+<!--                                配置服务器后加这句话<span th:text="${httpServletRequest.getContextPath()}"></span>-->
                                 <a href="https://github.com/login/oauth/authorize?client_id=Iv1.f2ab5ec886f983ef&redirect_uri=http://localhost:8887/callback&scope=user&state=1">登录</a>
+<!--                                这里配置完服务器上面的登录地址要改一下<a th:href="..."></a>-->
                             </li>
                         </ul>
                     </div>

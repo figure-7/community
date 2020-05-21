@@ -37,7 +37,7 @@
         <profile>
             <id>dev</id>
             <properties>
-                <db.url>jdbc:mysql://localhost:3306/user?serverTimezone=GMT&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&characterEncoding=utf-8</db.url>
+                <db.url>jdbc:mysql://localhost:3306/user</db.url>
                 <db.user>root</db.user>
                 <db.password>123</db.password>
             </properties>
@@ -48,7 +48,7 @@
         <profile>
             <id>production</id>
             <properties>
-                <db.url>jdbc:mysql://localhost:3306/user?serverTimezone=GMT&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&characterEncoding=utf-8</db.url>
+                <db.url>jdbc:mysql://localhost:3306/user</db.url>
                 <db.user>root</db.user>
                 <db.password>maven-1314_</db.password>
             </properties>

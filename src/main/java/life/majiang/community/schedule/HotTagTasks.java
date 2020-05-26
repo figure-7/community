@@ -54,6 +54,7 @@ public class HotTagTasks {
                     System.out.println();
                 }
         );
+        hotTagCache.updateTags(priorities);
         log.info("hotTagSchedule stop {}", new Date());
     }
 }

@@ -108,3 +108,9 @@ body{
     padding: 10px 25%;
     color: #666;
 }
+.video {
+    padding: 30px;
+}
+.video img {
+    width: 100%;
+}

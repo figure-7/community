@@ -1,34 +1,233 @@
-2020-06-01 11:08:12.030  INFO 5236 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 5236 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
-2020-06-01 11:08:12.046  INFO 5236 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
-2020-06-01 11:08:12.133  WARN 5236 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-06-01 11:08:12.157  INFO 5236 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
-2020-06-01 11:08:12.157  INFO 5236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-01 11:08:12.158  INFO 5236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-01 11:08:13.823  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-06-01 11:08:14.021  INFO 5236 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153ms. Found 0 JPA repository interfaces.
-2020-06-01 11:08:16.860  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
-2020-06-01 11:08:16.886  INFO 5236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-01 11:08:16.886  INFO 5236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
-2020-06-01 11:08:17.303  INFO 5236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-01 11:08:17.304  INFO 5236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5146 ms
-2020-06-01 11:08:17.697  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-06-01 11:08:18.430  INFO 5236 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-06-01 11:08:18.690  INFO 5236 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-06-01 11:08:19.014  INFO 5236 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-06-01 11:08:19.483  INFO 5236 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-06-01 11:08:20.013  INFO 5236 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2020-06-01 11:08:20.823  INFO 5236 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-06-01 11:08:20.858  INFO 5236 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-06-01 11:08:22.128  WARN 5236 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-06-01 11:08:22.669  INFO 5236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-01 11:08:22.857  INFO 5236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-06-01 11:08:23.304  INFO 5236 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-06-01 11:08:23.934  INFO 5236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-01 11:08:23.987  INFO 5236 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Mon Jun 01 11:08:23 CST 2020
-2020-06-01 11:08:24.054  INFO 5236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
-2020-06-01 11:08:24.061  INFO 5236 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 12.785 seconds (JVM running for 16.154)
-2020-06-01 11:08:24.121  INFO 5236 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Mon Jun 01 11:08:24 CST 2020
-2020-06-01 11:08:28.641  INFO 5236 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-06-01 11:08:28.642  INFO 5236 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-01 11:08:28.679  INFO 5236 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
-2020-06-01 11:08:48.069  WARN 5236 --- [http-nio-8887-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'cid' for method parameter of type String]
+2020-06-03 10:59:44.150  INFO 10444 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 10444 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
+2020-06-03 10:59:44.160  INFO 10444 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-06-03 10:59:44.222  WARN 10444 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-06-03 10:59:44.284  INFO 10444 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-06-03 10:59:44.284  INFO 10444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 10:59:44.285  INFO 10444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 10:59:45.489  INFO 10444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-03 10:59:45.590  INFO 10444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 0 JPA repository interfaces.
+2020-06-03 10:59:46.716  INFO 10444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-06-03 10:59:46.730  INFO 10444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 10:59:46.730  INFO 10444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-03 10:59:46.915  INFO 10444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 10:59:46.915  INFO 10444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2630 ms
+2020-06-03 10:59:47.098  INFO 10444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-03 10:59:47.489  INFO 10444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-03 10:59:47.668  INFO 10444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-03 10:59:47.773  INFO 10444 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-06-03 10:59:48.014  INFO 10444 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-03 10:59:48.212  INFO 10444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-03 10:59:48.464  INFO 10444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 10:59:48.480  INFO 10444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 10:59:49.020  WARN 10444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 10:59:49.183  INFO 10444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 10:59:49.279  INFO 10444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-03 10:59:49.511  INFO 10444 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-03 10:59:50.084  INFO 10444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 10:59:50.123  INFO 10444 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Wed Jun 03 10:59:50 CST 2020
+2020-06-03 10:59:50.162  INFO 10444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-06-03 10:59:50.169  INFO 10444 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 6.597 seconds (JVM running for 9.484)
+2020-06-03 10:59:50.209  INFO 10444 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Wed Jun 03 10:59:50 CST 2020
+2020-06-03 11:12:32.129  INFO 10444 --- [Thread-16] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-03 11:12:32.137  INFO 10444 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:12:32.138  INFO 10444 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:12:32.146  INFO 10444 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-03 11:12:32.170  INFO 10444 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-03 11:12:34.042  INFO 10444 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 10444 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
+2020-06-03 11:12:34.042  INFO 10444 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-06-03 11:12:34.537  INFO 10444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-03 11:12:34.590  INFO 10444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 0 JPA repository interfaces.
+2020-06-03 11:12:34.857  INFO 10444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-06-03 11:12:34.858  INFO 10444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:12:34.859  INFO 10444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-03 11:12:34.921  INFO 10444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:12:34.921  INFO 10444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 874 ms
+2020-06-03 11:12:34.981  INFO 10444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-03 11:12:34.987  INFO 10444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-03 11:12:35.032  INFO 10444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-03 11:12:35.041  INFO 10444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-03 11:12:35.057  INFO 10444 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 11:12:35.058  INFO 10444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:12:35.323  WARN 10444 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 11:12:35.379  INFO 10444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:12:35.406  INFO 10444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-03 11:12:35.469  INFO 10444 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-03 11:12:36.040  INFO 10444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:12:36.072  INFO 10444 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Wed Jun 03 11:12:36 CST 2020
+2020-06-03 11:12:36.081  INFO 10444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-06-03 11:12:36.084  INFO 10444 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 2.109 seconds (JVM running for 775.398)
+2020-06-03 11:12:36.088  INFO 10444 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-03 11:12:36.096  INFO 10444 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Wed Jun 03 11:12:36 CST 2020
+2020-06-03 11:18:28.694  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 14856 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
+2020-06-03 11:18:28.697  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-06-03 11:18:28.742  WARN 14856 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-06-03 11:18:28.784  INFO 14856 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-06-03 11:18:28.784  INFO 14856 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 11:18:28.784  INFO 14856 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 11:18:29.821  INFO 14856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-03 11:18:29.905  INFO 14856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 0 JPA repository interfaces.
+2020-06-03 11:18:30.770  INFO 14856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-06-03 11:18:30.779  INFO 14856 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:18:30.780  INFO 14856 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-03 11:18:30.982  INFO 14856 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:18:30.983  INFO 14856 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2198 ms
+2020-06-03 11:18:31.159  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-03 11:18:31.609  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-03 11:18:31.834  INFO 14856 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-03 11:18:31.973  INFO 14856 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-06-03 11:18:32.182  INFO 14856 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-03 11:18:32.359  INFO 14856 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-03 11:18:32.616  INFO 14856 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 11:18:32.638  INFO 14856 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:18:33.196  WARN 14856 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 11:18:33.347  INFO 14856 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:18:33.431  INFO 14856 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-03 11:18:33.643  INFO 14856 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-03 11:18:34.110  INFO 14856 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:18:34.145  INFO 14856 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Wed Jun 03 11:18:34 CST 2020
+2020-06-03 11:18:34.178  INFO 14856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-06-03 11:18:34.183  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 6.375 seconds (JVM running for 9.409)
+2020-06-03 11:18:34.225  INFO 14856 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Wed Jun 03 11:18:34 CST 2020
+2020-06-03 11:19:25.986  INFO 14856 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-03 11:19:25.988  INFO 14856 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-03 11:19:26.003  INFO 14856 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-06-03 11:20:47.770  INFO 14856 --- [Thread-16] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-03 11:20:47.774  INFO 14856 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:20:47.775  INFO 14856 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:20:47.781  INFO 14856 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-03 11:20:47.786  INFO 14856 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-03 11:20:50.109  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 14856 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
+2020-06-03 11:20:50.109  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-06-03 11:20:50.565  INFO 14856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-03 11:20:50.641  INFO 14856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 0 JPA repository interfaces.
+2020-06-03 11:20:50.963  INFO 14856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-06-03 11:20:50.966  INFO 14856 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:20:50.966  INFO 14856 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-03 11:20:51.033  INFO 14856 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:20:51.034  INFO 14856 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 920 ms
+2020-06-03 11:20:51.051  WARN 14856 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [ads] for session [4B143641E950117339B19834C5EA68D6]
+2020-06-03 11:20:51.104  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-06-03 11:20:51.120  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-06-03 11:20:51.177  INFO 14856 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-03 11:20:51.186  INFO 14856 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-03 11:20:51.211  INFO 14856 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 11:20:51.211  INFO 14856 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:20:51.417  WARN 14856 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 11:20:51.489  INFO 14856 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:20:51.512  INFO 14856 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-03 11:20:51.574  INFO 14856 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-03 11:20:52.066  INFO 14856 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:20:52.084  INFO 14856 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Wed Jun 03 11:20:52 CST 2020
+2020-06-03 11:20:52.094  INFO 14856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-06-03 11:20:52.096  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 2.063 seconds (JVM running for 147.323)
+2020-06-03 11:20:52.099  INFO 14856 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-06-03 11:20:52.104  INFO 14856 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Wed Jun 03 11:20:52 CST 2020
+2020-06-03 11:21:10.161  INFO 14856 --- [Thread-23] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-03 11:21:10.162  INFO 14856 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:21:10.163  INFO 14856 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:21:10.164  INFO 14856 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-06-03 11:21:10.171  INFO 14856 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-06-03 11:21:11.863  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 14856 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
+2020-06-03 11:21:11.863  INFO 14856 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-06-03 11:21:12.256  INFO 14856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-03 11:21:12.299  INFO 14856 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 JPA repository interfaces.
+2020-06-03 11:21:12.526  INFO 14856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-06-03 11:21:12.527  INFO 14856 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:21:12.527  INFO 14856 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-03 11:21:12.559  INFO 14856 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:21:12.559  INFO 14856 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 692 ms
+2020-06-03 11:21:12.599  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-06-03 11:21:12.605  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-06-03 11:21:12.646  INFO 14856 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-03 11:21:12.652  INFO 14856 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-03 11:21:12.665  INFO 14856 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 11:21:12.665  INFO 14856 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:21:12.815  WARN 14856 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webConfig' defined in file [C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community\target\classes\life\majiang\community\interceptor\WebConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [life.majiang.community.interceptor.WebConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2f015de0]
+2020-06-03 11:21:12.816  INFO 14856 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:21:12.816  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-06-03 11:21:12.822  INFO 14856 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-06-03 11:21:12.823  INFO 14856 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-06-03 11:21:12.832  INFO 14856 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-03 11:21:12.848 ERROR 14856 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webConfig' defined in file [C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community\target\classes\life\majiang\community\interceptor\WebConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [life.majiang.community.interceptor.WebConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2f015de0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at life.majiang.community.CommunityApplication.main(CommunityApplication.java:14) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [life.majiang.community.interceptor.WebConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2f015de0]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666) ~[spring-core-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:428) ~[spring-orm-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:409) ~[spring-orm-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:336) ~[spring-orm-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Llife/majiang/community/interceptor/SessionInterceptor;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_131]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_131]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_131]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729) ~[spring-core-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: life.majiang.community.interceptor.SessionInterceptor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_131]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_131]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_131]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_131]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.2.5.RELEASE.jar:2.2.5.RELEASE]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_131]
+	... 30 common frames omitted
+
+2020-06-03 11:23:53.992  INFO 15204 --- [restartedMain] l.m.community.CommunityApplication       : Starting CommunityApplication on LAPTOP-1J0KAN27 with PID 15204 (started by Lenovo in C:\Users\Lenovo\Desktop\编程数据库\Java Web从入门到精通光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\community)
+2020-06-03 11:23:53.993  INFO 15204 --- [restartedMain] l.m.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-06-03 11:23:54.037  WARN 15204 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-06-03 11:23:54.059  INFO 15204 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-06-03 11:23:54.059  INFO 15204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-03 11:23:54.059  INFO 15204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-03 11:23:55.409  INFO 15204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-03 11:23:55.550  INFO 15204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 0 JPA repository interfaces.
+2020-06-03 11:23:57.038  INFO 15204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-06-03 11:23:57.054  INFO 15204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-03 11:23:57.055  INFO 15204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-03 11:23:57.292  INFO 15204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-03 11:23:57.293  INFO 15204 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3233 ms
+2020-06-03 11:23:57.603  INFO 15204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-06-03 11:23:58.502  INFO 15204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-06-03 11:23:58.726  INFO 15204 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-03 11:23:58.983  INFO 15204 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-06-03 11:23:59.779  INFO 15204 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-03 11:24:00.241  INFO 15204 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-03 11:24:00.563  INFO 15204 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 11:24:00.576  INFO 15204 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-03 11:24:01.136  WARN 15204 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-03 11:24:01.321  INFO 15204 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-03 11:24:01.429  INFO 15204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-03 11:24:01.649  INFO 15204 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-03 11:24:02.242  INFO 15204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-03 11:24:02.273  INFO 15204 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule start Wed Jun 03 11:24:02 CST 2020
+2020-06-03 11:24:02.315  INFO 15204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-06-03 11:24:02.320  INFO 15204 --- [restartedMain] l.m.community.CommunityApplication       : Started CommunityApplication in 8.927 seconds (JVM running for 11.937)
+2020-06-03 11:24:02.362  INFO 15204 --- [scheduling-1] l.m.community.schedule.HotTagTasks       : hotTagSchedule stop Wed Jun 03 11:24:02 CST 2020
+2020-06-03 11:24:19.458  INFO 15204 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-03 11:24:19.459  INFO 15204 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-03 11:24:19.466  INFO 15204 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms

@@ -33,6 +33,10 @@
                     发布时间：<span th:text="${#dates.format(question.gmtCreate,'dd MMMM yyyy')}"></span> |
                     阅读数：<span th:text="${question.viewCount}"></span>
                     </span>
+                    <hr class="col-lg-12 col-md-12 col-sm-12  col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12" th:each="ad : ${#httpServletRequest.getServletContext().getAttribute('HEADER')}">
+                        <a th:href="${ad.url}" th:text="${ad.title}" target="_blank" style="color: #A00;font-weight: bold;"></a>
+                    </div>
 
                     <!--内容-->
                     <hr class="col-lg-12 col-md-12 col-sm-12  col-xs-12">
@@ -44,6 +48,10 @@
                             editormd.markdownToHTML("question-view", {});
                         });
                     </script>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12" th:each="ad : ${#httpServletRequest.getServletContext().getAttribute('FOOTER')}">
+                        <a th:href="${ad.url}" th:text="${ad.title}" target="_blank" style="color: #A00;font-weight: bold;"></a>
+                    </div>
 
                     <!--标签-->
                     <hr class="col-lg-12 col-md-12 col-sm-12  col-xs-12">

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:fragment="side">
+    <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12 side">
+        <h4>关注站长小宋</h4>
+        <img class="img-thumbnail leetcodecontest" src="/images/leetcode contest.jpg">
+    </div>
+    <script>
+        function clickNav(label) {
+            gtag('event','click',{'event_category': 'LINK','event_label': label,'transport_type':'SIDE'})
+        }
+    </script>
+    <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12 side" th:each="ad : ${#httpServletRequest.getServletContext().getAttribute('SIDE')}">
+        <a th:href="${ad.url}" th:onclick="clickNav([[${ad.title}]])" target="_blank">
+            <img class="img-thumbnail leetcodecontest" th:src="${ad.image}">
+        </a>
+    </div>
+</div>
+</body>
+</html>

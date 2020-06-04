@@ -1,5 +1,6 @@
 package life.majiang.community.interceptor;
 
+import life.majiang.community.enums.AdPosEnum;
 import life.majiang.community.mapper.UserMapper;
 import life.majiang.community.model.User;
 import life.majiang.community.model.UserExample;
@@ -37,7 +38,9 @@ public class SessionInterceptor implements HandlerInterceptor {
         //设置context级别属性
         request.getServletContext().setAttribute("redirectUri", redirectUri);
         //没有登录也可以查看导航
-        request.getServletContext().setAttribute("ads", adService.list());;
+        for(AdPosEnum adPos : AdPosEnum.values()) {
+            request.getServletContext().setAttribute(adPos.name(), adService.list(adPos.name()));
+        }
         Cookie[] cookies = request.getCookies();
         if(cookies != null && cookies.length != 0) {
             for (Cookie cookie : cookies) {

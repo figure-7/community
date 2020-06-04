@@ -14,9 +14,9 @@ public class AdService {
     @Autowired
     private AdMapper adMapper;
 
-    public List<Ad> list() {
+    public List<Ad> list(String pos) {
         AdExample adExample = new AdExample();
-        adExample.createCriteria().andStatusEqualTo(1).andGmtStartLessThan(System.currentTimeMillis()).andGmtEndGreaterThan(System.currentTimeMillis());
+        adExample.createCriteria().andStatusEqualTo(1).andPosEqualTo(pos).andGmtStartLessThan(System.currentTimeMillis()).andGmtEndGreaterThan(System.currentTimeMillis());
         return adMapper.selectByExample(adExample);
     }
 }
